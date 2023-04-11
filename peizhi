@@ -22,41 +22,41 @@ DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
 DOMAIN-KEYWORD,apple-support.akadns.net,Apple
 DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
 # > Wikimedia Foundation
-DOMAIN-SUFFIX,mediawiki.org,PROXY
-DOMAIN-SUFFIX,wikibooks.org,PROXY
-DOMAIN-SUFFIX,wikidata.org,PROXY
-DOMAIN-SUFFIX,wikileaks.org,PROXY
-DOMAIN-SUFFIX,wikimedia.org,PROXY
-DOMAIN-SUFFIX,wikimediafoundation.org,PROXY
-DOMAIN-SUFFIX,wikinews.org,PROXY
-DOMAIN-SUFFIX,wikipedia.org,PROXY
-DOMAIN-SUFFIX,wikiquote.org,PROXY
-DOMAIN-SUFFIX,wikisource.org,PROXY
-DOMAIN-SUFFIX,wikiversity.org,PROXY
-DOMAIN-SUFFIX,wikivoyage.org,PROXY
-DOMAIN-SUFFIX,wiktionary.org,PROXY
+HOST-SUFFIX,mediawiki.org,PROXY
+HOST-SUFFIX,wikibooks.org,PROXY
+HOST-SUFFIX,wikidata.org,PROXY
+HOST-SUFFIX,wikileaks.org,PROXY
+HOST-SUFFIX,wikimedia.org,PROXY
+HOST-SUFFIX,wikimediafoundation.org,PROXY
+HOST-SUFFIX,wikinews.org,PROXY
+HOST-SUFFIX,wikipedia.org,PROXY
+HOST-SUFFIX,wikiquote.org,PROXY
+HOST-SUFFIX,wikisource.org,PROXY
+HOST-SUFFIX,wikiversity.org,PROXY
+HOST-SUFFIX,wikivoyage.org,PROXY
+HOST-SUFFIX,wiktionary.org,PROXY
 # > Reuters
-DOMAIN-SUFFIX,reuters.com,PROXY
-DOMAIN-SUFFIX,reutersmedia.net,PROXY
+HOST-SUFFIX,reuters.com,PROXY
+HOST-SUFFIX,reutersmedia.net,PROXY
 # > Microsoft
-DOMAIN-SUFFIX,aka.ms,PROXY
-DOMAIN-SUFFIX,github.blog,PROXY
-DOMAIN-SUFFIX,github.com,PROXY
-DOMAIN-SUFFIX,github.io,PROXY
-DOMAIN-SUFFIX,githubassets.com,PROXY
-DOMAIN-SUFFIX,githubusercontent.com,PROXY
-DOMAIN-SUFFIX,onedrive.live.com,PROXY
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net,PROXY
-DOMAIN,assets1.xboxlive.com,PROXY
-DOMAIN,assets2.xboxlive.com,PROXY
-DOMAIN,az416426.vo.msecnd.net,PROXY
-DOMAIN,az668014.vo.msecnd.net,PROXY
+HOST-SUFFIX,aka.ms,PROXY
+HOST-SUFFIX,github.blog,PROXY
+HOST-SUFFIX,github.com,PROXY
+HOST-SUFFIX,github.io,PROXY
+HOST-SUFFIX,githubassets.com,PROXY
+HOST-SUFFIX,githubusercontent.com,PROXY
+HOST-SUFFIX,onedrive.live.com,PROXY
+HOST-SUFFIX,streaming.mediaservices.windows.net,PROXY
+HOST,assets1.xboxlive.com,PROXY
+HOST,assets2.xboxlive.com,PROXY
+HOST,az416426.vo.msecnd.net,PROXY
+HOST,az668014.vo.msecnd.net,PROXY
 # > Microsoft
-DOMAIN-SUFFIX,bing.com,PROXY
-DOMAIN-SUFFIX,linkedin.com,PROXY
-DOMAIN-SUFFIX,licdn.com,PROXY
-DOMAIN-SUFFIX,msn.com,PROXY
-DOMAIN-SUFFIX,skype.com,PROXY
+HOST-SUFFIX,bing.com,PROXY
+HOST-SUFFIX,linkedin.com,PROXY
+HOST-SUFFIX,licdn.com,PROXY
+HOST-SUFFIX,msn.com,PROXY
+HOST-SUFFIX,skype.com,PROXY
 
 [general]
 # 资源解析器
@@ -341,3 +341,13 @@ HOST-SUFFIX,zynamics.com,PROXY
 HOST-KEYWORD,google,PROXY
 HOST-KEYWORD,.blogspot.,PROXY
 HOST-SUFFIX,goog,PROXY
+
+# Region-Restricted Access Denied
+HOST-SUFFIX,aicoin.com,PROXY
+HOST-SUFFIX,aimoon.com,PROXY
+HOST-SUFFIX,engadget.com,PROXY
+HOST-SUFFIX,ifixit.com,PROXY
+HOST-SUFFIX,terabox.com,PROXY
+HOST-SUFFIX,zaobao.com.sg,PROXY
+HOST,addons.mozilla.org,PROXY
+HOST,wego.here.com,PROXY
